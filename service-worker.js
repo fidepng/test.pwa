@@ -16,9 +16,9 @@ const filesToCache = [
   '/asset/img/instagram.png',
   '/asset/img/gmail.png',
   '/asset/img/github.png',
-  '/asset/img/icon-192.png',
-  '/asset/img/icon-512.png',
-  '/asset/img/maskable-icon.png'
+  './asset/img/icon-192.png',
+  './asset/img/icon-512.png',
+  './asset/img/maskable-icon.png'
 ];
 
 self.addEventListener('install', function(event) {
