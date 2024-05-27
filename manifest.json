@@ -1,7 +1,7 @@
 {
   "name": "Personal Page",
   "short_name": "Personal Page",
-  "start_url": "/test.pwa",
+  "start_url": "/test.pwa/",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#a855f7",
