@@ -1,6 +1,7 @@
 {
   "name": "Personal Page",
   "short_name": "Personal Page",
+  "scope": "/test.pwa/",
   "start_url": "/test.pwa/",
   "display": "standalone",
   "background_color": "#ffffff",
