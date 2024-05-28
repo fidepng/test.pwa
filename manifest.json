@@ -1,8 +1,8 @@
 {
   "name": "Personal Page",
-  "short_name": "Personal Page",
-  "scope": "/test.pwa/",
-  "start_url": "/test.pwa/",
+  "short_name": "fide",
+  "start_url": "/test.pwa",
+  "scope": "/test.pwa",
   "display": "standalone",
   "background_color": "#ffffff",
   "theme_color": "#a855f7",

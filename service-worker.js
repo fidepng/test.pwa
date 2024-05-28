@@ -41,3 +41,12 @@ self.addEventListener('fetch', function(event) {
       })
   );
 });
+
+if ("Service Worker" in navigator)  {
+  window.addEventListener("load", function() {
+    navigator.serviceWorker
+      .register("./generate-sw.js")
+      .then(res => console.log("service worker registered"))
+      .catch(err => console.log("service worker not registered"))
+  })
+}
